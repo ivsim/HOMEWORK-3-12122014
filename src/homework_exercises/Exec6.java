@@ -22,9 +22,15 @@ public class Exec6 {
 		int ten = (a - (hundred*100)) / 10;
 		int single = a - hundred*100 - ten*10;
 		
-		if ((hundred != 0 && hundred == single) || (hundred == 0 && ten == single) || (hundred == 0 && ten == 0))
+		if (hundred != 0 && hundred == single)
 		{System.out.print(a + " ");}
 		
+		if (hundred == 0 && ten == single)
+		{System.out.print(a + " ");}
+		
+		if (hundred == 0 && ten == 0)
+		{System.out.print(a + " ");}
+			
 
 		}
 	}
