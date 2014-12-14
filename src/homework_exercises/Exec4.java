@@ -21,7 +21,7 @@ public class Exec4 {
 			
 			long triple = tripleMultiply(number1, number2, number3);
 			
-			System.out.printf("%12s * %12s * %12s = %d%n", number1, number2, number3, triple);
+			System.out.printf("%-12d * %-12d * %-12d = %d%n", number1, number2, number3, triple);
 		}
 		
 		
